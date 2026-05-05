@@ -24,7 +24,7 @@ public class Cls_TC_01 extends BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://demowebshop.tricentis.com/");
-		
+		Reporter.log("WelcomePage is Displayed",true);
 		//FileInputStream fis = new FileInputStream("./src/test/main/java/objectRepository/DemoWebShop");
 		//Properties prop = new Properties();
 		//prop.load(fis);
